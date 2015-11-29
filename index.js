@@ -1,4 +1,4 @@
-exports.module = {
+module.exports = {
     "rules": {
         "accessor-pairs": 2,
         "arrow-spacing": [2, {
@@ -7,9 +7,9 @@ exports.module = {
         }],
         "block-spacing": [2, "always"],
         "brace-style": [2, "1tbs", {
-            "allowSingleLine": true
+            "allowSingleLine": false
         }],
-        "comma-dangle": [2, "never"],
+        "comma-dangle": 0,
         "comma-spacing": [2, {
             "before": false,
             "after": true
@@ -18,6 +18,7 @@ exports.module = {
         "constructor-super": 2,
         "curly": [2, "multi-line"],
         "dot-location": [2, "property"],
+        "dot-notation": 2,
         "eol-last": 2,
         "eqeqeq": [2, "allow-null"],
         "generator-star-spacing": [2, {
@@ -32,15 +33,12 @@ exports.module = {
             "beforeColon": false,
             "afterColon": true
         }],
-        "new-cap": [2, {
-            "newIsCap": true,
-            "capIsNew": false
-        }],
         "new-parens": 2,
         "no-array-constructor": 2,
         "no-caller": 2,
         "no-class-assign": 2,
         "no-cond-assign": 2,
+        "no-console": 2,
         "no-const-assign": 2,
         "no-control-regex": 2,
         "no-debugger": 2,
@@ -103,21 +101,13 @@ exports.module = {
             "defaultAssignment": false
         }],
         "no-unreachable": 2,
-        "no-unused-vars": [2, {
-            "vars": "all",
-            "args": "none"
-        }],
+        "no-unused-vars": 2,
         "no-useless-call": 2,
         "no-with": 2,
-        "one-var": [2, "always"],
-        "operator-linebreak": [2, "after", {
-            "overrides": {
-                "?": "before",
-                ":": "before"
-            }
-        }],
+        "one-var": 0,
+        "operator-linebreak": [2, "after"],
         "padded-blocks": [2, "never"],
-        "quotes": [2, "single", "avoid-escape"],
+        "quotes": [2, "single"],
         "radix": 2,
         "semi": [2, "never"],
         "semi-spacing": [2, {
@@ -142,9 +132,5 @@ exports.module = {
         "valid-typeof": 2,
         "wrap-iife": [2, "any"],
         "yoda": [2, "never"],
-
-        "standard/object-curly-even-spacing": [2, "either"],
-        "standard/array-bracket-even-spacing": [2, "either"],
-        "standard/computed-property-even-spacing": [2, "even"]
     }
 }
