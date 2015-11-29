@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-classeur",
+  "version": "1.0.0",
+  "description": "ESLint sharable config for Classeur",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/classeur/eslint-config-classeur.git"
+  },
+  "author": "Benoit Schweblin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/classeur/eslint-config-classeur/issues"
+  },
+  "homepage": "https://github.com/classeur/eslint-config-classeur#readme",
+  "devDependencies": {
+      "clgulp": "^1.0.4",
+      "gulp": "^3.9.0"
+  }
+}
